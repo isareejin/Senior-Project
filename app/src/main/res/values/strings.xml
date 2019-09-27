@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">myApp</string>
+    <string name="title_activity_page_sos2">pageSOS2</string>
+    <string name="sos">SOS</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="login_error_message" />
+    <string name="register_error_message" />
+    <string name="register_password_error" />
+    <string name="register_success" />
+    <string name="todo">TODO</string>
+    <string name="facebook_app_id">334900703712300</string>
+    <string name="fb_login_protocol_scheme">fb334900703712300</string>
+
+    <string-array name="CmdMenu">
+        <item>Edit</item>
+        <item>Delete</item>
+    </string-array>
+</resources>

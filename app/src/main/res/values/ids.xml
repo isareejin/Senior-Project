@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="buttonmainSOS" type="id" />
+    <item name="buttonmainphotomail" type="id" />
+    <item name="buttonmainemergency" type="id" />
+    <item name="imgView" type="id" />
+</resources>

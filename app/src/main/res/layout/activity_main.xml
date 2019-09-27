@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/graydark"
+    android:gravity="center"
+    tools:context="com.platform.myapp.myapp.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/headbar" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="SOS"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/buttonlogout"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"/>
+
+
+        <!--
+        <Button
+            android:id="@+id/buttonuser"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/buttonuser"
+            android:layout_alignParentRight="true" />
+            -->
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/buttonmainSOS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonmainsos" />
+
+        <Button
+            android:id="@+id/buttonmainphotomail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/buttonmainSOS"
+            android:layout_toRightOf="@id/buttonmainSOS"
+            android:background="@drawable/buttonmainphotomail" />
+
+        <Button
+            android:id="@+id/buttonmainemergency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttonmainSOS"
+            android:layout_alignLeft="@+id/buttonmainSOS"
+            android:background="@drawable/buttonmainemergency" />
+
+        <Button
+            android:id="@+id/buttonmaincontact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/buttonmainphotomail"
+            android:layout_toRightOf="@id/buttonmainemergency"
+            android:background="@drawable/buttonmaincontact" />
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
